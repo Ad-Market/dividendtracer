@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+body, height{
+  margin: 0;
+  font-family: 'DM Sans', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  background: #141416;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.react-datepicker__close-icon::after{
+  background-color: white !important;
+  color: black !important;
+}
+
+.react-datepicker__input-container > .react-datepicker__close-icon{
+  position: relative;
+  padding: 0;
+  margin-left: 10px;
+  display: none;
+}
+
+.showButton .react-datepicker__close-icon{
+  display: block;
+}
+
+.react-datepicker__input-container > .example-custom-input{
+  /* margin-right: 3em; */
+}
+
+.react-datepicker__input-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.marquee{
+  min-width: min-content !important;
+}
